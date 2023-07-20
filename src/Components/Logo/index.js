@@ -5,8 +5,8 @@ function Logo() {
   return (
     <>
       <div>
-        <h1 className="center">
-          <span className="vertical">The</span> Siren
+        <h1 className="point">
+          <span className="horiz">The</span> Siren
         </h1>
       </div>
     </>

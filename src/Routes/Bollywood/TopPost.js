@@ -11,7 +11,7 @@ function TopPost() {
   const [data,setData]=useState([])
 
 useEffect(()=>{
-  // const API="https://blog-server-oxr9.onrender.com"
+ 
   const API =AllData
 axios.get(API,data)
 .then(res=>setData(res.data[0]))

@@ -5,18 +5,18 @@ import './Footer.style.css'
 
 const Footer = () => {
   return (
-    <div className="TheMainFooter">
+    <div className="Mfooter">
       <div className="theFWidth">
 
-<div className="FGridCont">
+<div className="Fcont">
 
-      <div className="FSecCon">
-      <div className="fLogo">
+      <div className="FSc">
+      <div className="footerLogo">
         <div className="theFProp"><FooterLogo /></div>
       </div>
-      <div className="FmiddleCon">
-        <div className="FmiddleSubCon">
-          <div className="FCopywrite">
+      <div className="mCon">
+        <div className="fmsc">
+          <div className="FCw">
             <span>©</span>2023.The Siren. All Rights reserved
           </div>
         </div>
@@ -36,13 +36,13 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="FRefernce">
+      <div className="refernce">
         <h3 className="TheFReferences">References</h3>
-        <div className="TheFBollywood"><a className="Flinks" href="https://www.bollywoodhungama.com/movies/top-100-movies/">Bollywood</a></div>
-        <div className="TheFHollywood"><a className="Flinks" href="https://www.themoviedb.org/movie">Hollywood</a></div>
-        <div className="TheFTechnology"><a className="Flinks" href="https://www.cnet.com/news/">Technology</a></div>
-        <div className="TheFFitness"><a className="Flinks" href="https://www.precisionnutrition.com/blog">Fitness</a></div>
-        <div className="TheFFood"><a className="Flinks" href="https://pinchofyum.com/blog">Food</a></div>
+        <div className="TheFBollywood"><a className="Flinks">Bollywood</a></div>
+        <div className="TheFHollywood"><a className="Flinks" >Hollywood</a></div>
+        <div className="TheFTechnology"><a className="Flinks" >Technology</a></div>
+        <div className="TheFFitness"><a className="Flinks">Fitness</a></div>
+        <div className="TheFFood"><a className="Flinks" >Food</a></div>
       </div>
       </div>
 </div>

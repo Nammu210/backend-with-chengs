@@ -18,8 +18,8 @@ setShow(prev=>!prev)
 
 
   return (
-    <div className='TheLogoCon'>
-    <div className='moLogoPar'>
+    <div className='tlc'>
+    <div className='mlp'>
         <div className='mLogoSub'>
     <div>
       <h1 className="TheMobileLogo">
@@ -27,7 +27,7 @@ setShow(prev=>!prev)
       </h1>
     </div>
    <div className='mvBtns'><LoginButton/></div> 
-    <div onClick={()=>setShow(!show)} className='MenuBar'>
+    <div onClick={()=>setShow(!show)} className='mb'>
         <div className='Menu'></div>
         <div className='Menu'></div>
         <div className='Menu'></div>
@@ -37,11 +37,11 @@ setShow(prev=>!prev)
   </div>
  
   </div>
-  <hr className='mobileHr'/>
+  <hr className='mobh'/>
 
   { show && (
-  <div onClick={handleMenu} className='selector'>
-    {(localStorage.getItem("token")) &&<p className='mbuserName'><FontAwesomeIcon icon={faUser} /><span>&nbsp; {localStorage.getItem("name")}</span></p>}
+  <div onClick={handleMenu} className='select'>
+    {(localStorage.getItem("token")) &&<p className='Mname'><FontAwesomeIcon icon={faUser} /><span>&nbsp; {localStorage.getItem("name")}</span></p>}
   <div  className='coms'><NavLink style={{color:'black', textDecoration:'none'}} to={"/"} >Home</NavLink></div>
   <div className='coms'><NavLink style={{color:'black' , textDecoration:'none'}} to={"/Bollywood"} >Bollywood</NavLink></div>
   <div  className='coms'><NavLink style={{color:'black', textDecoration:'none'}} to={"/Technology"} >Tech</NavLink></div>
